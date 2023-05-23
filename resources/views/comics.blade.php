@@ -3,4 +3,7 @@
 @section('content')
 @include('partials.jumbotron')
 
+<section>
+    
+</section>
 @endsection

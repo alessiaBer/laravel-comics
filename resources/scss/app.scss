@@ -3,6 +3,8 @@
 .my_container_lg {
     width: 70%;
 }
+
+
 header {
     .header_banner {
         font-family: 'Roboto', sans-serif;
@@ -17,6 +19,9 @@ header {
             a.nav-link {
                 text-transform: uppercase;
                 color: black;
+                .dropdown-toggle::after {
+                    color: $primary !important;
+                }
             }
         }
         .input-group {
@@ -35,4 +40,11 @@ header {
             }
         }
     }
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+
 }
