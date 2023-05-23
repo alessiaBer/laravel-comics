@@ -7,7 +7,7 @@
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container my_container_lg justify-content-between px-0">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ url('/')}}">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -18,45 +18,45 @@
             <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Characters</a>
+                        <a class="nav-link" aria-current="page" href="{{ url('/')}}">Characters</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">comics</a>
+                        <a class="nav-link" href="{{ route('comics')}}">comics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">movies</a>
+                        <a class="nav-link" href="{{ url('/')}}">movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">tv</a>
+                        <a class="nav-link" href="{{ url('/')}}">tv</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">games</a>
+                        <a class="nav-link" href="{{ url('/')}}">games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">collectibles</a>
+                        <a class="nav-link" href="{{ url('/')}}">collectibles</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">videos</a>
+                        <a class="nav-link" href="{{ url('/')}}">videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">fans</a>
+                        <a class="nav-link" href="{{ url('/')}}">fans</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">news</a>
+                        <a class="nav-link" href="{{ url('/')}}">news</a>
                     </li>
                     <!-- .dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="{{ url('/')}}" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             shop
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/')}}">Action</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/')}}">Another action</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/')}}">Something else here</a></li>
                         </ul>
                     </li>
                     <!-- /.dropdown -->
