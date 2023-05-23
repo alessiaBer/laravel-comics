@@ -12,7 +12,7 @@
             <div class="row row-col-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 mt-6">
                 @foreach($comics as $comic)
                 <div class="col">
-                    <div class="card rounded-0 border-0 bg-transparent">
+                    <div class="card rounded-0 border-0 bg-transparent pb-5">
                         <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                         <div class="card_text">
                             <span class="text-uppercase text-white">{{$comic['title']}}</span>
